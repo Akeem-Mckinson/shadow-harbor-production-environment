@@ -69,6 +69,7 @@ Monitoring & Alerting
 Backup Automation
 
 
+
 Terraform Infrastructure as Code
 
 Terraform was used to automate Azure resource provisioning through Infrastructure as Code (IaC).
