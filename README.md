@@ -158,14 +158,14 @@ Security Hardening
 UFW Firewall
 
 Configured firewall rules for controlled access.
-sudo ufw allow 22/tcp
-sudo ufw allow 80/tcp
+sudo ufw allow 22/tcp,
+sudo ufw allow 80/tcp,
 sudo ufw enable
 
 Fail2Ban
 Implemented intrusion prevention to protect SSH services.
 
-sudo fail2ban-client status
+sudo fail2ban-client status,
 sudo fail2ban-client status sshd
 
 Security controls implemented:
@@ -195,6 +195,7 @@ Memory Alert:Available Memory < 20%
 
 Availability Alert:VM Availability < 100%
 
+__________
 
 Notification System
 
