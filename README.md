@@ -123,8 +123,8 @@ Linux Administration
 Connected securely using SSH and performed administrative operations.
 Commands used:
 hostname
-whoami
-ip a
+whoami,
+ip a,
 lsb_release -a
 
 
@@ -141,8 +141,8 @@ Web Server Deployment
 Installed and configured NGINX.
 
 Commands:
-sudo apt update
-sudo apt install nginx -y
+sudo apt update,
+sudo apt install nginx -y,
 sudo systemctl status nginx
 
 Validation:
