@@ -121,7 +121,12 @@ __________
 Linux Administration
 
 Connected securely using SSH and performed administrative operations.
-Commands used:hostname,whoami,ip a,lsb_release -a
+Commands used:
+hostname
+whoami
+ip a
+lsb_release -a
+
 
 Tasks completed:
 
@@ -135,7 +140,10 @@ Web Server Deployment
 
 Installed and configured NGINX.
 
-Commands:sudo apt update,sudo apt install nginx -y,sudo systemctl status nginx
+Commands:
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl status nginx
 
 Validation:
 
@@ -150,11 +158,14 @@ Security Hardening
 UFW Firewall
 
 Configured firewall rules for controlled access.
-sudo ufw allow 22/tcp,sudo ufw allow 80/tcp,sudo ufw enable
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw enable
 
 Fail2Ban
 Implemented intrusion prevention to protect SSH services.
-sudo fail2ban-client status,sudo fail2ban-client status sshd
+sudo fail2ban-client status
+sudo fail2ban-client status sshd
 
 Security controls implemented:
 
