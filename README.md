@@ -45,20 +45,26 @@ Architecture
 Internet
     ↓
 
+
 Azure Public IP
     ↓
+
 
 Network Security Group
     ↓
 
+
 Ubuntu Linux VM
     ↓
+
 
 NGINX Web Server
     ↓
 
+
 Monitoring & Alerting
     ↓
+
 
 Backup Automation
 
