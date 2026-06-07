@@ -68,7 +68,7 @@ Monitoring & Alerting
 
 Backup Automation
 
-
+__________
 
 Terraform Infrastructure as Code
 
@@ -76,9 +76,12 @@ Terraform was used to automate Azure resource provisioning through Infrastructur
 
 Terraform Workflow
 
-Initialize Terraform: terraform init
-Review planned infrastructure: terraform plan
-Deploy resources: terraform apply
+Initialize Terraform: 
+terraform init
+Review planned infrastructure: 
+terraform plan
+Deploy resources: 
+terraform apply
 
 Terraform Skills Demonstrated
 * Infrastructure as Code
