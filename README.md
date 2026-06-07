@@ -8,7 +8,7 @@ The project demonstrates infrastructure deployment, security hardening, monitori
 
 The objective was to build and manage a secure cloud environment while applying industry-standard operational practices used by cloud and infrastructure engineers.
 
-⸻
+__________
 
 Technologies Used
 
@@ -25,7 +25,7 @@ Technologies Used
 * Cron Jobs
 * SSH
 
-⸻
+__________
 
 Business Scenario
 
@@ -116,7 +116,7 @@ Skills demonstrated:
 * Compute Services
 * Security Configuration
 
-⸻
+__________
 
 Linux Administration
 
@@ -163,7 +163,7 @@ Security controls implemented:
 * SSH Protection
 * Access Control
 
-⸻
+__________
 
 Monitoring and Alerting
 
@@ -186,8 +186,11 @@ Azure Action Groups were configured to send email notifications when alert thres
 
 Backup Automation
 Created an automated backup solution using Bash scripting and Cron.
+
 Backup script:/usr/local/bin/shadow-backup.sh
+
 Backup destination:/var/backups/shadowharbor
+
 Cron schedule:0 2 * * * /usr/local/bin/shadow-backup.sh
 
 Capabilities:
